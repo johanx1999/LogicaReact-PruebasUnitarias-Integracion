@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { HeroesApp } from './HeroesApp';
+import "./styles.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <HeroesApp />, 
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// const saludo = <h1> hola mundo</h1>
+// const divRoot = document.getElementById('root')
+// ReactDOM.render(saludo , divRoot);
+
+/* 
+Arrancar app desde cero
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const saludo = <h1> hola mundo</h1>
+const divRoot = document.getElementById('root')
+ReactDOM.render(saludo, divRoot);
+
+ */
